@@ -48,7 +48,7 @@ def fieldC_cons(state):
 def fieldD_cons(state):
         x = state[0]
         y = state[1]
-        if (x > 0.300 and x < 0.800 and y > 3.100 and y < 3.500):
+        if (x > 0.300 and x < 0.600 and y > 3.100 and y < 3.500):
                 return True
 
         return False
@@ -57,7 +57,7 @@ def fieldD_cons(state):
 def fieldE_cons(state):
         x = state[0]
         y = state[1]
-        if (x > 0.300 and x < 0.800 and y > 3.450 and y < 3.950):
+        if (x > 0.300 and x < 0.800 and y > 3.70 and y < 3.950):
                 return True
 
         return False
@@ -66,7 +66,7 @@ def fieldE_cons(state):
 def fieldF_cons(state):
         x = state[0]
         y = state[1]
-        if (x > 1.500 and x < 2.000 and y > 4.050 and y < 4.550):
+        if (x > 1.600 and x < 2.000 and y > 4.050 and y < 4.550):
                 return True
 
         return False
@@ -75,7 +75,7 @@ def fieldF_cons(state):
 def fieldG_cons(state):
         x = state[0]
         y = state[1]
-        if (x > 1.500 and x < 2.000 and y > 5.050 and y < 5.550):
+        if (x > 1.600 and x < 2.000 and y > 5.050 and y < 5.550):
                 return True
 
         return False
@@ -84,7 +84,7 @@ def fieldG_cons(state):
 def fieldH_cons(state):
         x = state[0]
         y = state[1]
-        if (x > 1.225 and x < 1.280 and y > 5.800 and y < 6.250):
+        if (x > 1.200 and x < 1.280 and y > 5.700 and y < 6.30):
                 return True
 
         return False
@@ -93,7 +93,7 @@ def fieldH_cons(state):
 def fieldI_cons(state):
         x = state[0]
         y = state[1]
-        if (x > 1.225 and x < 1.280 and y > 8.500 and y < 9.000):
+        if (x > 1.200 and x < 1.280 and y > 8.400 and y < 9.000):
                 return True
 
         return False
