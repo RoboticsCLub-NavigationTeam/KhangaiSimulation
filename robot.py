@@ -24,12 +24,16 @@ class Robot:
                         rw = 0
 
                 else :
+                        #! Need to implement Cubic Spline instead of linear spline
+                        # This is for linear spline
                         del_theta = state[2] - self.first_heading
-                        aoA = self.field.angleOfAttack(state)
+                        aoA = self.field.angleOfAttack(state, vel, dt)
 
                         vx = vel*math.cos(aoA)
                         vy = vel*math.sin(aoA)
                         rw = del_theta * 1000.0 / dt
+
+                        pass
 
                 if self.field.nextFieldReached(state):
                         self.field = self.field.next
